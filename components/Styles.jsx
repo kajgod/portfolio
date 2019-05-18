@@ -314,7 +314,7 @@ const Styles = () => (<>
         }
       
           a:hover {
-            color: #4696e5;
+            color: #A8D0E6;
           }
       
         strong, b {
@@ -1963,7 +1963,7 @@ const Styles = () => (<>
           button.primary,
           .button.primary {
             box-shadow: none;
-            background-color: #4696e5;
+            background-color: #A8D0E6;
             color: #ffffff !important;
           }
       
@@ -2163,8 +2163,8 @@ const Styles = () => (<>
           input[type="email"]:focus,
           select:focus,
           textarea:focus {
-            border-color: #4696e5;
-            box-shadow: 0 0 0 1px #4696e5;
+            border-color: #A8D0E6;
+            box-shadow: 0 0 0 1px #A8D0E6;
           }
       
         .select-wrapper:before {
@@ -2184,15 +2184,15 @@ const Styles = () => (<>
       
         input[type="checkbox"]:checked + label:before,
         input[type="radio"]:checked + label:before {
-          background-color: #4696e5;
-          border-color: #4696e5;
+          background-color: #A8D0E6;
+          border-color: #A8D0E6;
           color: #ffffff;
         }
       
         input[type="checkbox"]:focus + label:before,
         input[type="radio"]:focus + label:before {
-          border-color: #4696e5;
-          box-shadow: 0 0 0 1px #4696e5;
+          border-color: #A8D0E6;
+          box-shadow: 0 0 0 1px #A8D0E6;
         }
       
         ::-webkit-input-placeholder {
@@ -2858,7 +2858,7 @@ const Styles = () => (<>
               }
       
           .wrapper.style1 {
-            background-color: #4696e5;
+            background-color: #A8D0E6;
             color: #d1e5f9;
           }
       
@@ -2895,7 +2895,7 @@ const Styles = () => (<>
               .wrapper.style1 .button.primary {
                 box-shadow: none;
                 background-color: #ffffff;
-                color: #4696e5 !important;
+                color: #A8D0E6 !important;
               }
       
             .wrapper.style1 label {
@@ -2940,7 +2940,7 @@ const Styles = () => (<>
             .wrapper.style1 input[type="radio"]:checked + label:before {
               background-color: #ffffff;
               border-color: #ffffff;
-              color: #4696e5;
+              color: #A8D0E6;
             }
       
             .wrapper.style1 input[type="checkbox"]:focus + label:before,
@@ -2974,7 +2974,7 @@ const Styles = () => (<>
             }
       
             .wrapper.style1 .image {
-              box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+              box-shadow: 0 0 0 4px #A8D0E6, 0 0 0 5px rgba(255, 255, 255, 0.25);
             }
       
               .wrapper.style1 .image.phone {
@@ -3089,7 +3089,7 @@ const Styles = () => (<>
               .wrapper.style2 button.primary,
               .wrapper.style2 .button.primary {
                 box-shadow: none;
-                background-color: #4696e5;
+                background-color: #A8D0E6;
                 color: #ffffff !important;
               }
       
@@ -3128,8 +3128,8 @@ const Styles = () => (<>
               .wrapper.style2 input[type="email"]:focus,
               .wrapper.style2 select:focus,
               .wrapper.style2 textarea:focus {
-                border-color: #4696e5;
-                box-shadow: 0 0 0 1px #4696e5;
+                border-color: #A8D0E6;
+                box-shadow: 0 0 0 1px #A8D0E6;
               }
       
             .wrapper.style2 .select-wrapper:before {
@@ -3149,15 +3149,15 @@ const Styles = () => (<>
       
             .wrapper.style2 input[type="checkbox"]:checked + label:before,
             .wrapper.style2 input[type="radio"]:checked + label:before {
-              background-color: #4696e5;
-              border-color: #4696e5;
+              background-color: #A8D0E6;
+              border-color: #A8D0E6;
               color: #ffffff;
             }
       
             .wrapper.style2 input[type="checkbox"]:focus + label:before,
             .wrapper.style2 input[type="radio"]:focus + label:before {
-              border-color: #4696e5;
-              box-shadow: 0 0 0 1px #4696e5;
+              border-color: #A8D0E6;
+              box-shadow: 0 0 0 1px #A8D0E6;
             }
       
             .wrapper.style2 ::-webkit-input-placeholder {
@@ -3242,7 +3242,7 @@ const Styles = () => (<>
             }
       
               .wrapper.style2 a:hover {
-                color: #4696e5;
+                color: #A8D0E6;
               }
       
             .wrapper.style2 strong, .wrapper.style2 b {
@@ -3303,7 +3303,7 @@ const Styles = () => (<>
               .wrapper.style3 button.primary,
               .wrapper.style3 .button.primary {
                 box-shadow: none;
-                background-color: #4696e5;
+                background-color: #A8D0E6;
                 color: #ffffff !important;
               }
       
@@ -3342,8 +3342,8 @@ const Styles = () => (<>
               .wrapper.style3 input[type="email"]:focus,
               .wrapper.style3 select:focus,
               .wrapper.style3 textarea:focus {
-                border-color: #4696e5;
-                box-shadow: 0 0 0 1px #4696e5;
+                border-color: #A8D0E6;
+                box-shadow: 0 0 0 1px #A8D0E6;
               }
       
             .wrapper.style3 .select-wrapper:before {
@@ -3363,15 +3363,15 @@ const Styles = () => (<>
       
             .wrapper.style3 input[type="checkbox"]:checked + label:before,
             .wrapper.style3 input[type="radio"]:checked + label:before {
-              background-color: #4696e5;
-              border-color: #4696e5;
+              background-color: #A8D0E6;
+              border-color: #A8D0E6;
               color: #ffffff;
             }
       
             .wrapper.style3 input[type="checkbox"]:focus + label:before,
             .wrapper.style3 input[type="radio"]:focus + label:before {
-              border-color: #4696e5;
-              box-shadow: 0 0 0 1px #4696e5;
+              border-color: #A8D0E6;
+              box-shadow: 0 0 0 1px #A8D0E6;
             }
       
             .wrapper.style3 ::-webkit-input-placeholder {
@@ -3456,7 +3456,7 @@ const Styles = () => (<>
             }
       
               .wrapper.style3 a:hover {
-                color: #4696e5;
+                color: #A8D0E6;
               }
       
             .wrapper.style3 strong, .wrapper.style3 b {
@@ -3561,7 +3561,7 @@ const Styles = () => (<>
          
       
           #header .image {
-            box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+            box-shadow: 0 0 0 4px #A8D0E6, 0 0 0 5px rgba(255, 255, 255, 0.25);
           }
       
       
@@ -3862,7 +3862,7 @@ const Styles = () => (<>
           }
       
             #footer a:hover {
-              color: #4696e5;
+              color: #A8D0E6;
             }
       
           #footer strong, #footer b {
@@ -3916,6 +3916,14 @@ const Styles = () => (<>
             padding: 3em 1.5em 1em 1.5em ;
           }
       
+        }
+
+        .section>*, .section>*>*{
+          transform: scale(0.8);
+          transition: 0.8s ease-in-out;
+        }
+        .section.active>*, .section.active>*>*{
+          transform: scale(1);
         }
     `}</style>
 </>);
