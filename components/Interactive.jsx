@@ -19,7 +19,7 @@ export const Interactive = () => {
   ];
   return (<>
     <section className="spotlight">
-      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} />
+      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} />
       <div className="content">
         <h3>INteractive aplikacija za tablete</h3>
         <p>Arhitektura sustava, baze podataka i velika većina:</p>

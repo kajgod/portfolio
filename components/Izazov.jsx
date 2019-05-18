@@ -33,7 +33,7 @@ export const Izazov = () => {
             </a>
         </Link>
       </div>
-      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} />
+      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} />
     </section>
     <GalleryStyles />
     <style jsx>{`
