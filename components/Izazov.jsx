@@ -21,19 +21,19 @@ export const Izazov = () => {
     <section className="spotlight">      
       <div className="content">
         <h3>Kviz Izazov</h3>
-        <p>Sve od ideje interaktivnog kviza kojim tvrtke usmjeravaju pažnju posjetitelja na svoj štand, preko načina igre, dizajna, animacija...</p>
+        <p>Ideja, <em>gameplay</em>, programiranje, dizajn, animacije...</p>
         <ul>
-          <li>Node.js (Express + Socket.io) server </li>
-          <li>Prikaz na TV-u je canvas animacija preko cijelog zaslona prikazana u web pregledniku</li>
-          <li>Cordova/PhoneGap aplikacija za Android tablete</li>
+          <li>Node.js (Socket.io) server + MongoDB</li>
+          <li>Canvas animacije + JS logika</li>
+          <li>Cordova/PhoneGap app</li>
         </ul>
-        <Link href="http://www.najam-tableta.com/">
+        <Link href="https://youtu.be/oPdLslesapU">
           <a className="button" target="_blank">
             YouTube demo
             </a>
         </Link>
       </div>
-      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} />
+      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} />
     </section>
     <GalleryStyles />
     <style jsx>{`

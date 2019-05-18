@@ -19,14 +19,14 @@ export const Interactive = () => {
   ];
   return (<>
     <section className="spotlight">
-      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} />
+      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} />
       <div className="content">
         <h3>INteractive aplikacija za tablete</h3>
-        <p>Razvoj arhitekture sustava, baza podataka (MySQL i MongoDB) i velika većina koda za sva tri sustava:</p>
+        <p>Arhitektura sustava, baze podataka i velika većina:</p>
         <ul>
-          <li>Node.js (Express + Socket.io) server </li>
-          <li>Custom framework za backend sa sustavom single-page-component modula</li>
-          <li>Cordova/PhoneGap aplikacija za Android tablete</li>
+          <li>Node.js (Socket.io) server + MySQL</li>
+          <li>Modularni framework za backend</li>
+          <li>Cordova/PhoneGap app</li>
         </ul>
         <Link href="http://www.najam-tableta.com/">
           <a className="button" target="_blank">

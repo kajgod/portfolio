@@ -348,6 +348,10 @@ const Styles = () => (<>
         padding: 5px 10px; } }
 
     .image-gallery-content button {border:0px;}
+
+    #fp-nav ul li a {
+        border-bottom: 0px !important;
+    }
     `}</style>
 </>);
 export default Styles;

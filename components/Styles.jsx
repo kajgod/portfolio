@@ -1921,17 +1921,6 @@ const Styles = () => (<>
       
           }
       
-        @media screen and (max-width: 480px) and (orientation: portrait) {
-      
-          input[type="submit"],
-          input[type="reset"],
-          input[type="button"],
-          button,
-          .button {
-            padding: 0;
-          }
-      
-        }
       
         input[type="submit"],
         input[type="reset"],

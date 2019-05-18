@@ -1,0 +1,6 @@
+{
+    "version": 1,
+    "name": "portfolio",
+    "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+  }
+  

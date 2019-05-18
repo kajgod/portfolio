@@ -15,7 +15,7 @@ const Home = () => (
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
-              <div className="section">
+              <div className="section active">
                 <Header />
               </div>
               <div className="section development">
@@ -35,6 +35,9 @@ const Home = () => (
       #fp-nav ul li a span {
         box-shadow: rgba(0, 0, 0, 0.1) -1px 2px 0px 0px !important;
         background: rgba(255, 255, 255, 0.5) !important;
+      }
+      .section {
+        max-height: 100%;
       }
       .development {
         background-color: #F76C6C;
