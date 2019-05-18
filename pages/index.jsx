@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Head from '../components/Head';
-import Nav from '../components/Nav';
 import Styles from '../components/Styles';
 import { Header } from '../components/Header';
 import { Interactive } from '../components/Interactive';
 import { Izazov } from '../components/Izazov';
+import { Incase } from '../components/Incase';
+import { Ostalo } from '../components/Ostalo';
+import { Kraj } from '../components/Kraj';
 
 const Home = () => (
   <>
@@ -24,8 +26,14 @@ const Home = () => (
               <div className="section izazov">
                 <Izazov />
               </div>
+              <div className="section incase">
+                <Incase />
+              </div>
+              <div className="section ostalo">
+                <Ostalo />
+              </div>
               <div className="section">
-                <Nav />
+                <Kraj />
               </div>
             </ReactFullpage.Wrapper>          
           );
@@ -44,6 +52,12 @@ const Home = () => (
       }
       .izazov {
         background-color: #24305E;
+      }
+      .incase {
+        background-color: #FAABAB;
+      }
+      .ostalo {
+        background-color: #A8D0E6;
       }
     `}</style>
     <Styles />
