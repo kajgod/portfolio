@@ -3516,7 +3516,6 @@ const Styles = () => (<>
       /* Header */
       
         #header {
-          background-color: #A8D0E6;
           color: #FFFFFF;
           padding: 4.5em 0 2.5em 0 ;
           -moz-align-items: center;
