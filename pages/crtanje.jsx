@@ -4,9 +4,8 @@ import Head from '../components/Head';
 import Styles from '../components/Styles';
 import { Header } from '../components/Header';
 import { Cestitke } from '../components/Cestitke';
-import { Izazov } from '../components/Izazov';
-import { Incase } from '../components/Incase';
-import { Ostalo } from '../components/Ostalo';
+import { ModraLasta } from '../components/ModraLasta';
+import { Fusing } from '../components/Fusing';
 import { Kraj } from '../components/Kraj';
 import { Izbornik } from '../components/Izbornik';
 
@@ -29,14 +28,11 @@ const Home = () => (
               <div className="section cestitke">
                 <Cestitke />
               </div>
-              <div className="section izazov">
-                <Izazov />
+              <div className="section modra">
+                <ModraLasta />
               </div>
-              <div className="section incase">
-                <Incase />
-              </div>
-              <div className="section ostalo">
-                <Ostalo />
+              <div className="section fusing">
+                <Fusing />
               </div>
               <div className="section">
                 <Kraj />
@@ -59,15 +55,12 @@ const Home = () => (
         background-color: #FF8482;
       }
       .cestitke {
-        background-color: #D9D9D9;
-      }
-      .izazov {
         background-color: #24305E;
       }
-      .incase {
+      .fusing {
         background-color: #FAABAB;
       }
-      .ostalo {
+      .modra {
         background-color: #A8D0E6;
       }
     `}</style>

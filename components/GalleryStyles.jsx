@@ -352,6 +352,16 @@ const Styles = () => (<>
     #fp-nav ul li a {
         border-bottom: 0px !important;
     }
+    .image-gallery-fullscreen-button {
+      z-index: 90 !important;
+    }
+    @media (min-width: 768px){
+      .image-gallery-slides {
+        min-width: 400px;
+        min-height: 300px;
+      }
+    }
+    
     `}</style>
 </>);
 export default Styles;

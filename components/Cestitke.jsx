@@ -1,50 +1,27 @@
 import React from 'react';
-import Link from 'next/link';
 import ImageGallery from 'react-image-gallery';
 import GalleryStyles from './GalleryStyles';
 export const Cestitke = () => {
   const images = [
     {
       original: 'static/images/cestitke1.png',
+      thumbnail: 'static/images/cestitke1t.png'
     },
     {
       original: 'static/images/cestitke2.png',
+      thumbnail: 'static/images/cestitke2t.png'
     },
     {
       original: 'static/images/cestitke3.png',
-    },
-    {
-      original: 'static/images/cestitke4.png',
-    },
-    {
-      original: 'static/images/cestitke5.png',
-    },
-    {
-      original: 'static/images/cestitke6.png',
-    },
-    {
-      original: 'static/images/cestitke7.png',
-    },
-    {
-      original: 'static/images/cestitke8.png',
+      thumbnail: 'static/images/cestitke3t.png'
     }
   ];
   return (<>
     <section className="spotlight">
-      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} />
+      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} useBrowserFullscreen={false} />
       <div className="content">
-        <h3>INteractive aplikacija za tablete</h3>
-        <p>Arhitektura sustava, baze podataka i velika većina:</p>
-        <ul>
-          <li>Node.js (Socket.io) server + MySQL</li>
-          <li>Modularni framework za backend</li>
-          <li>Cordova/PhoneGap app</li>
-        </ul>
-        <Link href="http://www.najam-tableta.com/">
-          <a className="button" target="_blank">
-            Više o aplikaciji
-            </a>
-        </Link>
+        <h3>Čestitke za kolegice i kolege</h3>
+        <p>Zadnjih godina sam za SVAKOG kolegicu i kolegu u Dedalu crtao novogodišnju čestitku koja je svaka interna šala na račun neke zgode ili nezgode koja im se u tekućoj godini dogodila.</p>
       </div>
     </section>
     <GalleryStyles />
