@@ -3929,6 +3929,7 @@ const Styles = () => (<>
         .zdravko-gallery .fullscreen .image-gallery-image img {
             margin-top:0px;
             max-height: 100vh;
+            max-width: 90vw;
             width: auto;
         }
     `}</style>
