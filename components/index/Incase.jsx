@@ -38,9 +38,6 @@ export const Incase = () => {
         margin-left:5%;
         padding: 20px;
       }
-      .spotlight {
-        background-color: #fff;
-      }
       .image-gallery {
         max-width:50%;
       }

@@ -6,6 +6,7 @@ import { Header } from '../components/Header';
 import { Cestitke } from '../components/crtanje/Cestitke';
 import { ModraLasta } from '../components/crtanje/ModraLasta';
 import { Fusing } from '../components/crtanje/Fusing';
+import { Zdravko } from '../components/crtanje/Zdravko';
 import { Kraj } from '../components/Kraj';
 import { Izbornik } from '../components/Izbornik';
 
@@ -33,6 +34,9 @@ const Home = () => (
               </div>
               <div className="section fusing">
                 <Fusing />
+              </div>
+              <div className="section zdravko">
+                <Zdravko />
               </div>
               <div className="section">
                 <Kraj />
@@ -62,6 +66,10 @@ const Home = () => (
       }
       .modra {
         background-color: #A8D0E6;
+      }
+      }
+      .zdravko {
+        background-color: #24305E;
       }
     `}</style>
     <Styles />

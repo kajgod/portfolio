@@ -28,7 +28,9 @@ export const Zdravko = () => {
           </a>
         </Link>
       </div>
-      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} useBrowserFullscreen={false} />
+      <div className="zdravko-gallery">
+        <ImageGallery items={images} showThumbnails={false} showPlayButton={false} useBrowserFullscreen={false} />
+      </div>      
     </section>
     <GalleryStyles />
     <style jsx>{`
@@ -36,17 +38,11 @@ export const Zdravko = () => {
         margin-left:5%;
         padding: 20px;
       }
-      .spotlight {
-        background-color: #fff;
-      }
       .image-gallery {
         max-width:50%;
       }
       .button {
         box-shadow: inset 0 0 0 2px #e6e6e6;
-      }
-      .image-gallery-image {
-        max-height: 450px;
       }
     `}</style>
   </>);

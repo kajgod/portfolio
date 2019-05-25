@@ -62,9 +62,9 @@ const Styles = () => (<>
     line-height: 0;
     top: 0; }
     .image-gallery-content.fullscreen {
-      background: #000; }
+      background: #24305E; }
       .image-gallery-content.fullscreen .image-gallery-slide {
-        background: #000; }
+        background: #24305E; }
   
   .image-gallery-slide-wrapper {
     position: relative; }
@@ -361,7 +361,6 @@ const Styles = () => (<>
         min-height: 300px;
       }
     }
-    
     `}</style>
 </>);
 export default Styles;

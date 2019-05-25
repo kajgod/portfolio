@@ -3913,6 +3913,24 @@ const Styles = () => (<>
         .section.active>*, .section.active>*>*{
           transform: scale(1);
         }
+        .spotlight {
+          background-color: #fff;
+        }
+        .zdravko-gallery .image-gallery-image {
+          max-height: 50vh;
+        }
+        .zdravko-gallery .image-gallery-image img {
+            margin-top:-50%;
+        }
+        .zdravko-gallery .fullscreen .image-gallery-image {
+            max-height: 100vh;
+            text-align: center;
+        }
+        .zdravko-gallery .fullscreen .image-gallery-image img {
+            margin-top:0px;
+            max-height: 100vh;
+            width: auto;
+        }
     `}</style>
 </>);
 export default Styles;
