@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import ImageGallery from 'react-image-gallery';
-import GalleryStyles from './GalleryStyles';
+import GalleryStyles from '../GalleryStyles';
 export const Ostalo = () => {
   const images = [
     {

@@ -19,14 +19,21 @@ export const Izbornik = ({ aktivna }) => {
           <Link href="./">
             <a>
               Developerski poslovi
-                </a>
+            </a>
           </Link>
         </div>
         <div className={aktivna == "crtanje" ? "aktiv" : ""}>
           <Link href="./crtanje">
             <a>
               Crtanje i animacija
-                </a>
+            </a>
+          </Link>
+        </div>
+        <div>
+          <Link href="./static/JuricaStaresincic.pdf">
+            <a target="_blank">
+              Portfelj
+            </a>
           </Link>
         </div>
       </div>
@@ -46,7 +53,7 @@ export const Izbornik = ({ aktivna }) => {
         }
         nav.otvoren {
           width:250px;
-          height: 200px;
+          height: 250px;
           border-radius: 5px;
         }
         nav .otvori {

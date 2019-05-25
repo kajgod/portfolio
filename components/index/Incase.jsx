@@ -1,39 +1,36 @@
 import React from 'react';
 import Link from 'next/link';
 import ImageGallery from 'react-image-gallery';
-import GalleryStyles from './GalleryStyles';
-export const Izazov = () => {
+import GalleryStyles from '../GalleryStyles';
+export const Incase = () => {
   const images = [
     {
-      original: 'static/images/izazov.jpg',
+      original: 'static/images/incase.jpg',
     },
     {
-      original: 'static/images/izazov1.jpg'
+      original: 'static/images/incase1.jpg'
     },
     {
-      original: 'static/images/izazov2.jpg'
-    },
-    {
-      original: 'static/images/izazov3.jpg'
+      original: 'static/images/incase2.jpg'
     }
   ];
   return (<>
-    <section className="spotlight">      
+    <section className="spotlight">     
+    <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} /> 
       <div className="content">
-        <h3>Kviz Izazov</h3>
-        <p>Ideja, <em>gameplay</em>, programiranje, dizajn, animacije...</p>
+        <h3>Incase interaktivne radionice</h3>
+        <p>Arhitektura sustava, baze podataka i suradnja s <em>hardverašima</em>.</p>
         <ul>
           <li>Node.js (Socket.io) server + MongoDB</li>
-          <li>Canvas animacije + JS logika</li>
-          <li>Cordova/PhoneGap app</li>
+          <li>Linux kiosk browser na touchscreen TV-ima</li>
+          <li>Modularna administracija</li>
         </ul>
-        <Link href="https://youtu.be/oPdLslesapU">
+        <Link href="https://youtu.be/gUhpgLhzDGY">
           <a className="button" target="_blank">
             YouTube demo
             </a>
         </Link>
       </div>
-      <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} />
     </section>
     <GalleryStyles />
     <style jsx>{`

@@ -1,6 +1,6 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
-import GalleryStyles from './GalleryStyles';
+import GalleryStyles from '../GalleryStyles';
 export const Cestitke = () => {
   const images = [
     {

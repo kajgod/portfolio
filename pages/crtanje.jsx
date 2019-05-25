@@ -3,9 +3,9 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import Head from '../components/Head';
 import Styles from '../components/Styles';
 import { Header } from '../components/Header';
-import { Cestitke } from '../components/Cestitke';
-import { ModraLasta } from '../components/ModraLasta';
-import { Fusing } from '../components/Fusing';
+import { Cestitke } from '../components/crtanje/Cestitke';
+import { ModraLasta } from '../components/crtanje/ModraLasta';
+import { Fusing } from '../components/crtanje/Fusing';
 import { Kraj } from '../components/Kraj';
 import { Izbornik } from '../components/Izbornik';
 

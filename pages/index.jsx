@@ -3,10 +3,10 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import Head from '../components/Head';
 import Styles from '../components/Styles';
 import { Header } from '../components/Header';
-import { Interactive } from '../components/Interactive';
-import { Izazov } from '../components/Izazov';
-import { Incase } from '../components/Incase';
-import { Ostalo } from '../components/Ostalo';
+import { Interactive } from '../components/index/Interactive';
+import { Izazov } from '../components/index/Izazov';
+import { Incase } from '../components/index/Incase';
+import { Ostalo } from '../components/index/Ostalo';
 import { Kraj } from '../components/Kraj';
 import { Izbornik } from '../components/Izbornik';
 
